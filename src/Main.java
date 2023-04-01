@@ -22,5 +22,4 @@ task1();
         System.out.println("Auditor.getAge() = " + Auditor.getAge());
     }
 
-
 }
