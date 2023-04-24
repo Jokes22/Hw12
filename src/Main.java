@@ -11,7 +11,7 @@ task1();
         System.out.println("Teenager.getAuthor() = " + Teenager.getAuthor().getAuthor());
         System.out.println("Teenager.getAuthor() = " + Teenager.getAuthor().getAuthorSurname());
         Author auditor = new Author("Николай", "Гоголь");
-        Book Auditor = new Book("Ревизор", 1836, teenager );
+        Book Auditor = new Book("Ревизор", 1836, auditor );
         System.out.println("Auditor.getNameBook() = " + Auditor.getNameBook());
         System.out.println("Auditor.getAge() = " + Auditor.getAge());
         System.out.println("Auditor.getAuthor() = " + Auditor.getAuthor().getAuthor());
