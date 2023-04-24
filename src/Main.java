@@ -17,5 +17,4 @@ task1();
         System.out.println("Auditor.getAuthor() = " + Auditor.getAuthor().getAuthor());
         System.out.println("Auditor.getAuthor() = " + Auditor.getAuthor().getAuthorSurname());
     }
-
 }
