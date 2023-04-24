@@ -1,12 +1,11 @@
 public class Book {
     private String nameBook;
-
     private int age;
-
-    public Book(String nameBook, int age) {
+    private Author author;
+    public Book(String nameBook, int age, Author author) {
         this.nameBook = nameBook;
         this.age = age;
-
+        this.author = author;
     }
 
 
@@ -23,6 +22,7 @@ public class Book {
         this.age = age;
     }
 
-
-
+    public Author getAuthor() {
+        return author;
+    }
 }
